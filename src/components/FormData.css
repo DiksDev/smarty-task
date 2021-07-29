@@ -1,0 +1,67 @@
+.main{
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.container {
+  padding: 10%;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: white;
+  height: 55%;
+  width: 600px;
+  min-width: none;
+  max-width: fit-content;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.082);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1{
+  font-family: 'Inter', sans-serif;
+}
+
+.container p{
+  font-family: 'Inter', sans-serif; 
+}
+
+#sButton{
+  color: white;
+  border: none;
+  min-width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(24, 153, 228);
+}
+
+#cb{
+  background-color: gray;
+}
+
+.bottomLine{
+  margin-top: 20px;
+}
+
+#fname, #lname, #email, #password, #cpassword{
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  display: flexbox;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif; 
+  background-color: rgba(128, 128, 128, 0.055);
+  font-style: italic;
+}
+
+
+#fname:focus, #lname:focus, #email:focus, #password:focus, #cpassword:focus{
+outline: none;
+box-shadow: 0 0 5px #4546463f;
+background-color: white;
+}
